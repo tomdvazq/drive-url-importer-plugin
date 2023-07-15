@@ -1,0 +1,17 @@
+{
+    "name": "drive/plugin",
+    "description": "Import videos from Google Drive for WooCommerce products.",
+    "require": {
+        "google/apiclient": "^2.15"
+    },
+    "autoload": {
+        "psr-4": {
+            "Drive\\Plugin\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Tomás Vazquez"
+        }
+    ]
+}
